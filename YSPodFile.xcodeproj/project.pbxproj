@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF27DD11F60208C00675074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27DD01F60208C00675074 /* main.m */; };
+		BEF27DD41F60208C00675074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27DD31F60208C00675074 /* AppDelegate.m */; };
+		BEF27DD71F60208C00675074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27DD61F60208C00675074 /* ViewController.m */; };
+		BEF27DDA1F60208C00675074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF27DD81F60208C00675074 /* Main.storyboard */; };
+		BEF27DDC1F60208C00675074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF27DDB1F60208C00675074 /* Assets.xcassets */; };
+		BEF27DDF1F60208C00675074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF27DDD1F60208C00675074 /* LaunchScreen.storyboard */; };
+		BEF27DEA1F60208D00675074 /* YSPodFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27DE91F60208D00675074 /* YSPodFileTests.m */; };
+		BEF27DF51F60208D00675074 /* YSPodFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27DF41F60208D00675074 /* YSPodFileUITests.m */; };
+		BEF27E061F6020EC00675074 /* GZZEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF27E051F6020EC00675074 /* GZZEditView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF27DE61F60208D00675074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF27DC41F60208C00675074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF27DCB1F60208C00675074;
+			remoteInfo = YSPodFile;
+		};
+		BEF27DF11F60208D00675074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF27DC41F60208C00675074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF27DCB1F60208C00675074;
+			remoteInfo = YSPodFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF27DCC1F60208C00675074 /* YSPodFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSPodFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF27DD01F60208C00675074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF27DD21F60208C00675074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEF27DD31F60208C00675074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF27DD51F60208C00675074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEF27DD61F60208C00675074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEF27DD91F60208C00675074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF27DDB1F60208C00675074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF27DDE1F60208C00675074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF27DE01F60208C00675074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF27DE51F60208D00675074 /* YSPodFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSPodFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF27DE91F60208D00675074 /* YSPodFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPodFileTests.m; sourceTree = "<group>"; };
+		BEF27DEB1F60208D00675074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF27DF01F60208D00675074 /* YSPodFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSPodFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF27DF41F60208D00675074 /* YSPodFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPodFileUITests.m; sourceTree = "<group>"; };
+		BEF27DF61F60208D00675074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF27E041F6020EC00675074 /* GZZEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZZEditView.h; sourceTree = "<group>"; };
+		BEF27E051F6020EC00675074 /* GZZEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZZEditView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF27DC91F60208C00675074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DE21F60208D00675074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DED1F60208D00675074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF27DC31F60208C00675074 = {
+			isa = PBXGroup;
+			children = (
+				BEF27DCE1F60208C00675074 /* YSPodFile */,
+				BEF27DE81F60208D00675074 /* YSPodFileTests */,
+				BEF27DF31F60208D00675074 /* YSPodFileUITests */,
+				BEF27DCD1F60208C00675074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF27DCD1F60208C00675074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27DCC1F60208C00675074 /* YSPodFile.app */,
+				BEF27DE51F60208D00675074 /* YSPodFileTests.xctest */,
+				BEF27DF01F60208D00675074 /* YSPodFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF27DCE1F60208C00675074 /* YSPodFile */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27DD21F60208C00675074 /* AppDelegate.h */,
+				BEF27DD31F60208C00675074 /* AppDelegate.m */,
+				BEF27DD51F60208C00675074 /* ViewController.h */,
+				BEF27DD61F60208C00675074 /* ViewController.m */,
+				BEF27E031F6020D100675074 /* GZZEditView */,
+				BEF27DD81F60208C00675074 /* Main.storyboard */,
+				BEF27DDB1F60208C00675074 /* Assets.xcassets */,
+				BEF27DDD1F60208C00675074 /* LaunchScreen.storyboard */,
+				BEF27DE01F60208C00675074 /* Info.plist */,
+				BEF27DCF1F60208C00675074 /* Supporting Files */,
+			);
+			path = YSPodFile;
+			sourceTree = "<group>";
+		};
+		BEF27DCF1F60208C00675074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27DD01F60208C00675074 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEF27DE81F60208D00675074 /* YSPodFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27DE91F60208D00675074 /* YSPodFileTests.m */,
+				BEF27DEB1F60208D00675074 /* Info.plist */,
+			);
+			path = YSPodFileTests;
+			sourceTree = "<group>";
+		};
+		BEF27DF31F60208D00675074 /* YSPodFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27DF41F60208D00675074 /* YSPodFileUITests.m */,
+				BEF27DF61F60208D00675074 /* Info.plist */,
+			);
+			path = YSPodFileUITests;
+			sourceTree = "<group>";
+		};
+		BEF27E031F6020D100675074 /* GZZEditView */ = {
+			isa = PBXGroup;
+			children = (
+				BEF27E041F6020EC00675074 /* GZZEditView.h */,
+				BEF27E051F6020EC00675074 /* GZZEditView.m */,
+			);
+			path = GZZEditView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF27DCB1F60208C00675074 /* YSPodFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF27DF91F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFile" */;
+			buildPhases = (
+				BEF27DC81F60208C00675074 /* Sources */,
+				BEF27DC91F60208C00675074 /* Frameworks */,
+				BEF27DCA1F60208C00675074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSPodFile;
+			productName = YSPodFile;
+			productReference = BEF27DCC1F60208C00675074 /* YSPodFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF27DE41F60208D00675074 /* YSPodFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF27DFC1F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFileTests" */;
+			buildPhases = (
+				BEF27DE11F60208D00675074 /* Sources */,
+				BEF27DE21F60208D00675074 /* Frameworks */,
+				BEF27DE31F60208D00675074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF27DE71F60208D00675074 /* PBXTargetDependency */,
+			);
+			name = YSPodFileTests;
+			productName = YSPodFileTests;
+			productReference = BEF27DE51F60208D00675074 /* YSPodFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF27DEF1F60208D00675074 /* YSPodFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF27DFF1F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFileUITests" */;
+			buildPhases = (
+				BEF27DEC1F60208D00675074 /* Sources */,
+				BEF27DED1F60208D00675074 /* Frameworks */,
+				BEF27DEE1F60208D00675074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF27DF21F60208D00675074 /* PBXTargetDependency */,
+			);
+			name = YSPodFileUITests;
+			productName = YSPodFileUITests;
+			productReference = BEF27DF01F60208D00675074 /* YSPodFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF27DC41F60208C00675074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YFBmacmini;
+				TargetAttributes = {
+					BEF27DCB1F60208C00675074 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					BEF27DE41F60208D00675074 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEF27DCB1F60208C00675074;
+					};
+					BEF27DEF1F60208D00675074 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEF27DCB1F60208C00675074;
+					};
+				};
+			};
+			buildConfigurationList = BEF27DC71F60208C00675074 /* Build configuration list for PBXProject "YSPodFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF27DC31F60208C00675074;
+			productRefGroup = BEF27DCD1F60208C00675074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF27DCB1F60208C00675074 /* YSPodFile */,
+				BEF27DE41F60208D00675074 /* YSPodFileTests */,
+				BEF27DEF1F60208D00675074 /* YSPodFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF27DCA1F60208C00675074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF27DDF1F60208C00675074 /* LaunchScreen.storyboard in Resources */,
+				BEF27DDC1F60208C00675074 /* Assets.xcassets in Resources */,
+				BEF27DDA1F60208C00675074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DE31F60208D00675074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DEE1F60208D00675074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF27DC81F60208C00675074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF27E061F6020EC00675074 /* GZZEditView.m in Sources */,
+				BEF27DD71F60208C00675074 /* ViewController.m in Sources */,
+				BEF27DD41F60208C00675074 /* AppDelegate.m in Sources */,
+				BEF27DD11F60208C00675074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DE11F60208D00675074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF27DEA1F60208D00675074 /* YSPodFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF27DEC1F60208D00675074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF27DF51F60208D00675074 /* YSPodFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF27DE71F60208D00675074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF27DCB1F60208C00675074 /* YSPodFile */;
+			targetProxy = BEF27DE61F60208D00675074 /* PBXContainerItemProxy */;
+		};
+		BEF27DF21F60208D00675074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF27DCB1F60208C00675074 /* YSPodFile */;
+			targetProxy = BEF27DF11F60208D00675074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF27DD81F60208C00675074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF27DD91F60208C00675074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF27DDD1F60208C00675074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF27DDE1F60208C00675074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF27DF71F60208D00675074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF27DF81F60208D00675074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF27DFA1F60208D00675074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSPodFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEF27DFB1F60208D00675074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSPodFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEF27DFD1F60208D00675074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSPodFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSPodFile.app/YSPodFile";
+			};
+			name = Debug;
+		};
+		BEF27DFE1F60208D00675074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSPodFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSPodFile.app/YSPodFile";
+			};
+			name = Release;
+		};
+		BEF27E001F60208D00675074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSPodFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSPodFile;
+			};
+			name = Debug;
+		};
+		BEF27E011F60208D00675074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSPodFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leked.YSPodFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSPodFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF27DC71F60208C00675074 /* Build configuration list for PBXProject "YSPodFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF27DF71F60208D00675074 /* Debug */,
+				BEF27DF81F60208D00675074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF27DF91F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF27DFA1F60208D00675074 /* Debug */,
+				BEF27DFB1F60208D00675074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF27DFC1F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF27DFD1F60208D00675074 /* Debug */,
+				BEF27DFE1F60208D00675074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF27DFF1F60208D00675074 /* Build configuration list for PBXNativeTarget "YSPodFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF27E001F60208D00675074 /* Debug */,
+				BEF27E011F60208D00675074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF27DC41F60208C00675074 /* Project object */;
+}
